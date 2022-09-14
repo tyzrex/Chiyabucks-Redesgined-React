@@ -7,6 +7,7 @@ import Cards from './components/Cards';
 import { createContext,useState } from 'react';
 import Ratings from './components/Ratings';
 import Footer from './components/Footer';
+import Quote from './components/Quote';
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <Analytics />
     <Newsletter />
     <Ratings/>
+    <Quote />
     <Footer/>
    </div>
    </ThemeContext.Provider>
