@@ -4,10 +4,10 @@ import Teaposter from '../assets/t.jpg'
 
 const Hero = () => {
   return (
-    <div className='text-white '>
+    <div className='text-white'>
         <div className='max-w-full mt-[-20px] w-full h-[60vh] mx-auto text-center lg:flex lg:justify-around lg:items-center md:grid grid gap-0 items-center justify-center nav'>
             <div>
-            <h1 className='md:text-6xl sm:text-5xl text-4xl font-bold md:py-6 md:max-w-xl'>Start your day with a cup of <p className='text-green-600'>positivi tea.</p></h1>
+            <h1 className='md:text-6x sm:text-5xl text-4xl font-bold md:py-6 md:max-w-xl'>Start your day with a cup of <p className='text-green-600'>positivi tea.</p></h1>
             </div>
             
             <div>
